@@ -1,3 +1,4 @@
 com\movemais\estoque\controller\ProdutoControllerIT.class
-com\movemais\estoque\InventoryApplicationTests.class
+com\movemais\estoque\service\MovimentoEstoqueServiceTest.class
 com\movemais\estoque\service\BcryptCheck.class
+com\movemais\estoque\InventoryApplicationTests.class

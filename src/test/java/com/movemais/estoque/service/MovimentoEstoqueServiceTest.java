@@ -42,7 +42,7 @@ class MovimentoEstoqueServiceTest {
         when(depositoRepository.findById(1L)).thenReturn(Optional.of(deposito));
         when(estoqueRepository.findByProdutoAndDeposito(produto, deposito)).thenReturn(Optional.of(estoque));
 
-        // IMPORTANTE: mockar save para NÃO retornar null
+        // mocka o save para NÃO retornar null
         when(movimentoRepository.save(any(MovimentoEstoque.class)))
                 .thenAnswer(invocation -> {
                     MovimentoEstoque mov = invocation.getArgument(0);
@@ -62,12 +62,12 @@ class MovimentoEstoqueServiceTest {
         verify(estoqueRepository).save(estoque);
         verify(movimentoRepository).save(Mockito.any(MovimentoEstoque.class));
 
-        // validação básica do response
-        assertEquals(5L, resp.getQuantidade());
-        assertEquals("ENTRADA", resp.getTipoMovimento());
-        assertEquals(1L, resp.getProdutoId());
-        assertEquals(1L, resp.getDepositoId());
-        assertNotNull(resp.getDataHoraMovimento());
+        // MovimentoResponse é RECORD: usar acessores do record
+        assertEquals(5L, resp.quantidade());
+        assertEquals("ENTRADA", resp.tipoMovimento());
+        assertEquals(1L, resp.produtoId());
+        assertEquals(1L, resp.depositoId());
+        assertNotNull(resp.dataHoraMovimento());
     }
 
     @Test

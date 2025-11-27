@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.movemais.estoque.service.MovimentoEstoqueServiceTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.010 s <<< FAILURE! -- in com.movemais.estoque.service.MovimentoEstoqueServiceTest
-com.movemais.estoque.service.MovimentoEstoqueServiceTest.deveRegistrarEntradaSomandoSaldo -- Time elapsed: 0.091 s <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "com.movemais.estoque.entity.MovimentoEstoque.getId()" because "m" is null
-	at com.movemais.estoque.service.MovimentoEstoqueService.toResponse(MovimentoEstoqueService.java:93)
-	at com.movemais.estoque.service.MovimentoEstoqueService.registrarEntrada(MovimentoEstoqueService.java:31)
-	at com.movemais.estoque.service.MovimentoEstoqueServiceTest.deveRegistrarEntradaSomandoSaldo(MovimentoEstoqueServiceTest.java:39)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.065 s -- in com.movemais.estoque.service.MovimentoEstoqueServiceTest
