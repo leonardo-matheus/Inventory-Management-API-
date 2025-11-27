@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a8795a-6921-497c-b0e6-f2b166af3471" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/DepositoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/DepositoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/EstoqueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/EstoqueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/MovimentoEstoqueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/controller/MovimentoEstoqueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/deposito/DepositoUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/estoque/EstoqueSaldoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/dto/estoque/EstoqueSaldoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/exception/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/exception/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/DepositoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/DepositoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/EstoqueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/EstoqueRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/MovimentoEstoqueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/repository/MovimentoEstoqueRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/DepositoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/DepositoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/EstoqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/EstoqueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/MovimentoEstoqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/service/MovimentoEstoqueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movemais/estoque/controller/MovimentoEstoqueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movemais/estoque/controller/MovimentoEstoqueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movemais/estoque/exception/ApiExceptionHandler$ProblemDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movemais/estoque/exception/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movemais/estoque/exception/ApiExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movemais/estoque/repository/MovimentoEstoqueRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movemais/estoque/repository/MovimentoEstoqueRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movemais/estoque/service/MovimentoEstoqueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movemais/estoque/service/MovimentoEstoqueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.movemais.estoque.InventoryApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.movemais.estoque.InventoryApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.movemais.estoque.service.MovimentoEstoqueServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.movemais.estoque.service.MovimentoEstoqueServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.movemais.estoque.InventoryApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.movemais.estoque.InventoryApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.movemais.estoque.service.MovimentoEstoqueServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.movemais.estoque.service.MovimentoEstoqueServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movemais/estoque/config/BcryptGenerator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764252180997</updated>
       <workItem from="1764252182754" duration="679000" />
-      <workItem from="1764253484663" duration="19055000" />
+      <workItem from="1764253484663" duration="19762000" />
     </task>
     <servers />
   </component>
